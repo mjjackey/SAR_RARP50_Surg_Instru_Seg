@@ -14,12 +14,7 @@ My schedule is as follows:
 
 and test dataset as the test set.
 
-- Extract the image in the video* folder corresponding to the same file name ground
-
-truth image in the segmentation folder respectively in the training dataset 1, 2 and
-
-test dataset.
-
+- Extract the image in the video* folder corresponding to the same file name groundtruth image in the segmentation folder respectively in the training dataset 1, 2 and test dataset.
 - **Get the standard COCO format annotation .json file from the existing dataset**.
 
 2. **Prepare the dataset: upload the dataset to the Google Cloud as mounted to the colab platform, as follows in standard COCO dataset format**:

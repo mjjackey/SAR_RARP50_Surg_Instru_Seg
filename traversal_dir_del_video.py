@@ -20,7 +20,7 @@ def rename_and_move_video_files(base_directory, target_directory):
 
             # Check if video_left.avi exists in the directory
             if os.path.exists(video_path) or os.path.exists(new_video_path):
-                if(os.path.exists(video_path)):
+                if os.path.exists(video_path):
                     # Rename the file
                     os.rename(video_path, new_video_path)
                     print(f"Renamed: {video_path} to {new_video_path}")
